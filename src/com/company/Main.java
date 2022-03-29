@@ -27,7 +27,7 @@ public class Main {
         //FilmManager adlı classda açılan addToList fonksiyonu çağırılarak
         //içine film1 değeri atandı.
         FilmManager filmManager = new FilmManager();
-        filmManager.addToList(film1);
+        filmManager.addToList(film2);
 
     }
 
