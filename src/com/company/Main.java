@@ -8,10 +8,12 @@ public class Main {
         Film film1 = new Film(1,"Gökdelen" , "Bilim" , 7);
         Film film2 = new Film(2,"Leto" ,"Dram" , 8);
         Film film3 = new Film(3,"Ragnorok" , "Aksiyon" , 9);
+        //Commit için film4 eklendi.
+        Film film4 = new Film(4,"Pera Palas" , "Tarih" , 6);
 
         //Film arrayi oluşturuldu.Girilen filmlerin listelenmesi için for
         //döngüsü açıldı sırayla filmlerin isimleri verildi.
-        Film[] films = {film1 , film2 , film3};
+        Film[] films = {film1 , film2 , film3,film4};
         for(Film film : films) {
             System.out.println(film.getName());
         }
@@ -20,6 +22,7 @@ public class Main {
         System.out.println(film1.getCategory());
         System.out.println(film2.getImdb());
         System.out.println(film3.getId());
+        System.out.println(film4.getName());
 
         //FilmManager adlı classda açılan addToList fonksiyonu çağırılarak
         //içine film1 değeri atandı.
